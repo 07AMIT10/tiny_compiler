@@ -999,7 +999,7 @@ func compiler(input string) string {
 }
 
 func main() {
-	program := "(add 234897 (subtract 10 62333))"
+	program := "(multiply 234897 (subtract 10 62333))"
 	out := compiler(program)
 	fmt.Println(out)
 }
